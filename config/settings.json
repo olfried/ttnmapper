@@ -51,4 +51,7 @@
     "teespring": false,
     "patreon": true
   }
+  "extensioni": {
+    "base_url": "/ttnmapper"
+  }
 }
