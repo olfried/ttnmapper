@@ -6,7 +6,7 @@ setUp().then(r => {});
 
 async function setUp() {
 
-  $("#legend").load("/legend.html");
+  $("#legend").load("/ttn/legend.html");
   // $("#legend").css({visibility: "hidden"});
     document.getElementById('legend').style.display= 'none' ;
 

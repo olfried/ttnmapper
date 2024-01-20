@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/ttn/head.php'; ?>
 <body>
 
 <div class="container-fullwidth" style="display: flex; flex-flow: column; height: 100%;">
@@ -8,7 +8,7 @@
     <!-- Image and text -->
     <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
 
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/ttn/">
             <img src="<?php echo $brandIcon; ?>" width="auto" height="32" class="d-inline-block align-top" alt="">
             <?php echo $brandName; ?>
         </a>
@@ -20,16 +20,16 @@
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/heatmap/">Heatmap</a>
+                    <a class="nav-link" href="/ttn/heatmap/">Heatmap</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/radar/">Beams</a>
+                    <a class="nav-link" href="/ttn/radar/">Beams</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/advanced-maps/">Advanced maps</a>
+                    <a class="nav-link" href="/ttn/advanced-maps/">Advanced maps</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/acknowledgements/">Acknowledgements</a>
+                    <a class="nav-link" href="/ttn/acknowledgements/">Acknowledgements</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://coveragemap.net">Helium</a>
@@ -86,12 +86,12 @@
         crossorigin="anonymous"></script>
 
 <!-- Leaflet -->
-<script src="/libs/leaflet/leaflet.js"></script>
-<script src="/libs/leaflet.measure/leaflet.measure.js"></script>
-<script src="/libs/Leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+<script src="/ttn/libs/leaflet/leaflet.js"></script>
+<script src="/ttn/libs/leaflet.measure/leaflet.measure.js"></script>
+<script src="/ttn/libs/Leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 
 <!-- HTML entity escaping -->
-<script src="/libs/he/he.js"></script>
+<script src="/ttn/libs/he/he.js"></script>
 
 <!-- Moment for datetime manipulation -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -99,12 +99,12 @@
 
 <script>
     $(function () {
-        $("#legend").load("/legend.html");
+        $("#legend").load("/ttn/legend.html");
     });
 </script>
 
 <!-- The map style -->
-<script type="text/javascript" src="/common.js"></script>
+<script type="text/javascript" src="/ttn/common.js"></script>
 <!-- The actual main logic for this page -->
 <script src="index-logic.js"></script>
 

@@ -14,22 +14,22 @@
         integrity="sha256-bqVeqGdJ7h/lYPq6xrPv/YGzMEb6dNxlfiTUHSgRCp8=" crossorigin="anonymous"></script>
 
 <!-- Leaflet -->
-<script src="/libs/leaflet-1.9.3/leaflet.js"></script>
-<script src="/libs/leaflet.measure/leaflet.measure.js"></script>
-<script src="/libs/Leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+<script src="/ttn/libs/leaflet-1.9.3/leaflet.js"></script>
+<script src="/ttn/libs/leaflet.measure/leaflet.measure.js"></script>
+<script src="/ttn/libs/Leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 
 <!-- HTML entity escaping -->
-<script src="/libs/he/he.js"></script>
+<script src="/ttn/libs/he/he.js"></script>
 
 <!-- Moment for datetime manipulation -->
-<script src="/libs/moment/moment.2.29.4.min.js"></script>
-<script src="/libs/moment/moment-timezone-with-data.0.5.43.min.js"></script>
+<script src="/ttn/libs/moment/moment.2.29.4.min.js"></script>
+<script src="/ttn/libs/moment/moment-timezone-with-data.0.5.43.min.js"></script>
 
 <script>
     $(function () {
-        $("#legend").load("/legend.html");
+        $("#legend").load("/ttn/legend.html");
     });
 </script>
 
 <!-- The map style -->
-<script type="text/javascript" src="/common.js"></script>
+<script type="text/javascript" src="/ttn/common.js"></script>

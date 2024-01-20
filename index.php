@@ -1,4 +1,4 @@
 <?php
-header("Location:/heatmap/");
+header("Location:/ttn/heatmap/");
 exit();
 ?>

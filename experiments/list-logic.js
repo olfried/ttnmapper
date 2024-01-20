@@ -49,7 +49,7 @@ function findExperiments(experiment) {
                 cellTwo.innerHTML = `
                   <form target="_blank">
                     <input type="hidden" name="experiment" value="${he.encode(experiment.name)}">
-                    <a href="/experiments/?experiment=${he.encode(experiment.name)}&points=on&gateways=on&lines=on">
+                    <a href="/ttn/experiments/?experiment=${he.encode(experiment.name)}&points=on&gateways=on&lines=on">
                       <button type="submit" class="btn btn-primary" formaction="/experiments/">View Map</button>
                     </a>
                   </form>
@@ -58,7 +58,7 @@ function findExperiments(experiment) {
                 cellThree.innerHTML = `
                   <form target="_blank">
                     <input type="hidden" name="experiment" value="${he.encode(experiment.name)}">
-                    <a href="/experiments/csv.php?experiment=${he.encode(experiment.name)}">
+                    <a href="/ttn/experiments/csv.php?experiment=${he.encode(experiment.name)}">
                       <button type="submit" class="btn btn-secondary" formaction="/experiments/csv.html">CSV data</button>
                     </a>
                   </form>

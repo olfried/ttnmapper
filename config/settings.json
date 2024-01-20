@@ -9,14 +9,14 @@
   "theming": {
     "site_name": "TTN Coverage",
     "site_description": "Coverage of The Things Network",
-    "favicon_dir": "/config/favicons",
-    "brand_icon": "/config/TTNMapper.svg",
+    "favicon_dir": "/ttn/config/favicons",
+    "brand_icon": "/ttn/config/TTNMapper.svg",
     "brand_name": "TTN Mapper",
 
     "map_start_lat": 48.2,
     "map_start_lon": 10.2,
     "map_start_zoom": 6,
-    "cluster_gateways": true,
+    "cluster_gateways": false,
     "marker_cluster_radius": 20,
     "show_unmapped_gateways": true,
 
@@ -27,18 +27,18 @@
     "gateway_popup_anchor_x": 2,
     "gateway_popup_anchor_y": 2,
 
-    "gateway_ttnv2_online": "/config/gateway_dot.png",
-    "gateway_ttnv2_offline": "/config/gateway_dot_red.png",
-    "gateway_ttsv3_online": "/config/TTS_V3_GW_flags.svg",
-    "gateway_ttsv3_offline": "/config/TTS_V3_GW_flags_red.svg",
-    "gateway_private_online": "/config/TTS_V3_GW_flags_h200.svg",
-    "gateway_private_offline": "/config/TTS_V3_GW_flags_h200.svg",
-    "gateway_chirp_online": "/config/chirpstack-gateway.svg",
-    "gateway_helium_online": "/config/helium-gateway-white-center.svg",
-    "gateway_helium_offline": "/config/helium-gateway-white-center-orange.svg",
-    "gateway_thingsix_online": "/config/thingsix_gateway.svg",
-    "gateway_thingsix_offline": "/config/thingsix_gateway.svg",
-    "gateway_default": "/config/gateway_dot.png"
+    "gateway_ttnv2_online": "/ttn/config/gateway_dot.png",
+    "gateway_ttnv2_offline": "/ttn/config/gateway_dot_red.png",
+    "gateway_ttsv3_online": "/ttn/config/TTS_V3_GW_flags.svg",
+    "gateway_ttsv3_offline": "/ttn/config/TTS_V3_GW_flags_red.svg",
+    "gateway_private_online": "/ttn/config/TTS_V3_GW_flags_h200.svg",
+    "gateway_private_offline": "/ttn/config/TTS_V3_GW_flags_h200.svg",
+    "gateway_chirp_online": "/ttn/config/chirpstack-gateway.svg",
+    "gateway_helium_online": "/ttn/config/helium-gateway-white-center.svg",
+    "gateway_helium_offline": "/ttn/config/helium-gateway-white-center-orange.svg",
+    "gateway_thingsix_online": "/ttn/config/thingsix_gateway.svg",
+    "gateway_thingsix_offline": "/ttn/config/thingsix_gateway.svg",
+    "gateway_default": "/ttn/config/gateway_dot.png"
   },
   "menu": {
     "menu_advanced": true,
@@ -50,8 +50,5 @@
     "menu_faq": false,
     "teespring": false,
     "patreon": true
-  }
-  "extensioni": {
-    "base_url": "/ttnmapper"
   }
 }

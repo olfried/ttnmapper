@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/ttn/head.php'; ?>
 <body>
 
 
 <!-- Image and text -->
 <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
 
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="/ttn/">
         <img src="<?php echo $brandIcon; ?>" width="auto" height="32" class="d-inline-block align-top" alt="">
         <?php echo $brandName; ?>
     </a>
@@ -20,16 +20,16 @@
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/heatmap/">Heatmap</a>
+                <a class="nav-link" href="/ttn/heatmap/">Heatmap</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/radar/">Beams</a>
+                <a class="nav-link" href="/ttn/radar/">Beams</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="/advanced-maps/">Advanced maps</a>
+                <a class="nav-link" href="/ttn/advanced-maps/">Advanced maps</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/acknowledgements/">Acknowledgements</a>
+                <a class="nav-link" href="/ttn/acknowledgements/">Acknowledgements</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://coveragemap.net">Helium</a>
@@ -92,9 +92,9 @@
 </div>
 
 <!-- Include required libraries -->
-<?php require $_SERVER['DOCUMENT_ROOT'] . '/foot.php'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/ttn/foot.php'; ?>
 
 <!-- The actual main logic for this page -->
-<script src="list-logic.js"></script>
+<script src="/ttn/experiments/list-logic.js"></script>
 </body>
 </html>

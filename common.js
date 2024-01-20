@@ -30,7 +30,7 @@ var gatewayMarkerThingsIxOffline;
 var gatewayMarkerDefault;
 
 async function initMap() {
-  await fetch("/config/settings.json")
+  await fetch("/ttn/config/settings.json")
       .then(response => {
         return response.json();
       })
@@ -474,10 +474,10 @@ function popUpDescription(gateway) {
 Show only this gateway's coverage as:<br /> 
 <ul>
   <li>
-    <a target="_blank" href="/heatmap/gateway/?gateway=${he.encode(gateway.gateway_id)}&network=${he.encode(gateway.network_id)}">heatmap</a>
+    <a target="_blank" href="/ttn/heatmap/gateway/?gateway=${he.encode(gateway.gateway_id)}&network=${he.encode(gateway.network_id)}">heatmap</a>
   </li>
   <li>
-    <a target="_blank" href="/radar/gateway/?gateway=${he.encode(gateway.gateway_id)}&network=${he.encode(gateway.network_id)}">beams</a>
+    <a target="_blank" href="/ttn/radar/gateway/?gateway=${he.encode(gateway.gateway_id)}&network=${he.encode(gateway.network_id)}">beams</a>
   </li>
 </ul>
 `

@@ -3,7 +3,7 @@
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    $string = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/config/settings.json");
+    $string = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/ttn/config/settings.json");
     $settings = json_decode($string, true);
 
     if (isset($settings['theming']['site_name'])) {
@@ -76,16 +76,16 @@
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.css"
           integrity="sha256-AghQEDQh6JXTN1iI/BatwbIHpJRKQcg2lay7DE5U/RQ=" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="/libs/open-iconic/font/css/open-iconic-bootstrap.min.css"/>
+    <link rel="stylesheet" href="/ttn/libs/open-iconic/font/css/open-iconic-bootstrap.min.css"/>
 
     <!-- Page theme -->
-    <link rel="stylesheet" href="/theme.css"/>
+    <link rel="stylesheet" href="/ttn/theme.css"/>
 
     <!-- Leaflet -->
-    <link rel="stylesheet" href="/libs/leaflet-1.9.3/leaflet.css"/>
-    <link rel="stylesheet" href="/libs/Leaflet.markercluster/dist/MarkerCluster.css"/>
-    <link rel="stylesheet" href="/libs/Leaflet.markercluster/dist/MarkerCluster.Default.css"/>
-    <link rel="stylesheet" href="/libs/leaflet.measure/leaflet.measure.css"/>
+    <link rel="stylesheet" href="/ttn/libs/leaflet-1.9.3/leaflet.css"/>
+    <link rel="stylesheet" href="/ttn/libs/Leaflet.markercluster/dist/MarkerCluster.css"/>
+    <link rel="stylesheet" href="/ttn/libs/Leaflet.markercluster/dist/MarkerCluster.Default.css"/>
+    <link rel="stylesheet" href="/ttn/libs/leaflet.measure/leaflet.measure.css"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $googleAnalyticsMeasurementId; ?>">

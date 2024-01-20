@@ -1,7 +1,7 @@
 setUp().then(r => {});
 
 async function setUp() {
-  $("#legend").load("/legend.html");
+  $("#legend").load("/ttn/legend.html");
   $("#legend").css({ visibility: "visible"});
   
   await initMap();
