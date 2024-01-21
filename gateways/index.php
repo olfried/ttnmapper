@@ -79,7 +79,7 @@
 </div>
 
 <!-- Include required libraries -->
-<?php require $_SERVER['DOCUMENT_ROOT'] . '/foot.php'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/ttn/foot.php'; ?>
 
 <!-- The actual main logic for this page -->
 <script src="index-logic.js"></script>
