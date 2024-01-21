@@ -54,9 +54,9 @@ $("#agg-gateways-btn-map").click(function(event){
     tempForm.attr('action', "/alpha-shapes/gateway/");
   }
   else if (radioValue === 'radar') {
-    tempForm.attr('action', "/radar/gateway/");
+    tempForm.attr('action', "/ttn/radar/gateway/");
   }
-  else if (radioValue === 'heatmap') {
+  else if (radioValue === '/ttn/heatmap') {
     tempForm.attr('action', "/heatmap/gateway/");
   }
   

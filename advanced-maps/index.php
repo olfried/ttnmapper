@@ -165,8 +165,8 @@
                 </div>
 
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary" formaction="/devices/">View Map</button>
-                    <button type="submit" class="btn btn-secondary" formaction="/devices/csv.html">CSV data</button>
+                    <button type="submit" class="btn btn-primary" formaction="/ttn/devices/">View Map</button>
+                    <button type="submit" class="btn btn-secondary" formaction="/ttn/devices/csv.html">CSV data</button>
                 </div>
             </form>
 

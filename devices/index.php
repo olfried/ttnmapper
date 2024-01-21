@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require $_SERVER['DOCUMENT_ROOT'] . '/head.php'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/ttn/head.php'; ?>
 <body>
 
 
