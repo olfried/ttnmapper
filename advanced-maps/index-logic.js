@@ -51,13 +51,13 @@ $("#agg-gateways-btn-map").click(function(event){
   var radioValue = $("input[type=radio][name=agg-gateways-radio-type]:checked").val();
   console.log("radio value", radioValue);
   if (radioValue === 'alpha') {
-    tempForm.attr('action', "/alpha-shapes/gateway/");
+    tempForm.attr('action', "/ttn/alpha-shapes/gateway/");
   }
   else if (radioValue === 'radar') {
     tempForm.attr('action', "/ttn/radar/gateway/");
   }
-  else if (radioValue === '/ttn/heatmap') {
-    tempForm.attr('action', "/heatmap/gateway/");
+  else if (radioValue === 'heatmap') {
+    tempForm.attr('action', "/ttn/heatmap/gateway/");
   }
   
   //agg-gateways-gateway-id

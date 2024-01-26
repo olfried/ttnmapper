@@ -273,8 +273,8 @@
                 </div>
 
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary" formaction="/gateways/">View Map</button>
-                    <button type="submit" class="btn btn-secondary" formaction="/gateways/csv.html">CSV data</button>
+                    <button type="submit" class="btn btn-primary" formaction="/ttn/gateways/">View Map</button>
+                    <button type="submit" class="btn btn-secondary" formaction="/ttn/gateways/csv.html">CSV data</button>
                 </div>
             </form>
 
